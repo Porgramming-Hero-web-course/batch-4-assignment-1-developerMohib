@@ -14,3 +14,11 @@ Consider a function that accepts a parameter which could be a **string** or **nu
 function printLength(value: string | number) {
     console.log(value.length); // Error: Property 'length' does not exist on type 'number'.
 }
+
+
+
+### Built-In Type Guards
+
+#### Using ```typeof``` 
+
+The ```typeof``` operator is a ```built in``` JavaScript operator that returns the ```type of``` a variable as a string. It works well with primitive types like string, number, and boolean.
