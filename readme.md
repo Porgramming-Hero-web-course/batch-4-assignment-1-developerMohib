@@ -14,7 +14,7 @@ Consider a function that accepts a parameter which could be a **string** or **nu
 function printLength(value: string | number) {
     console.log(value.length); // Error: Property 'length' does not exist on type 'number'.
 }
-
+```
 
 
 ### Built-In Type Guards
