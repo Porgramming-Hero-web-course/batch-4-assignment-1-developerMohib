@@ -1,6 +1,5 @@
 // Problem - 4 ==> Create a function calculateShapeArea that uses type guards to calculate the area based on the shape type
 
-
 type Circle = { shape: "circle"; radius: number };
 type Rectangle = { shape: "rectangle"; width: number; height: number };
 type Shape = Circle | Rectangle;
